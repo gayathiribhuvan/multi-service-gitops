@@ -1,0 +1,5 @@
+- name: Deploy Kubernetes Manifests
+  hosts: localhost
+  tasks:
+    - name: Apply Kubernetes files
+      shell: kubectl apply -f clusters/minikube/

@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: gayathirisb/devops-backend:v2
+        image: gayathirisb/devops-backend:v3
         ports:
         - containerPort: 3000
